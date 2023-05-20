@@ -29,7 +29,7 @@ useful_words=[]
 for i in words_list:
        for text in i:
               a = ''.join(text)
-              if text not in sw:
+              if text not in sw: #ISSUE IS HERE 
                      useful_words.append(a)
 #regex tokenizer
 
